@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//Deprecated, this is the old movement system (pre Unity Input)
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

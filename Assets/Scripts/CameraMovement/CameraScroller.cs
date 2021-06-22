@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraScroller : MonoBehaviour
-{
-    
-    
+{        
 
     private Camera mainCam;
     [SerializeField]

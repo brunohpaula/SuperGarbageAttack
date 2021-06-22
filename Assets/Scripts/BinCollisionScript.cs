@@ -70,6 +70,8 @@ public class BinCollisionScript : MonoBehaviour {
             Debug.Log("binmovement is " + movement);
             movement = Vector3.zero;
 
+
+            /*
             if (this.gameObject.transform.GetComponentInChildren<PlayerOneControls>())
             {
                 
@@ -83,12 +85,11 @@ public class BinCollisionScript : MonoBehaviour {
                 hasPlayer = true;
             }
 
+            */
             //if there's a player attached to the bin, it can be translated
             if (hasPlayer)
             {
-                //applies a bonus for the movement if there are more than 1 player moving the bin
-                
-
+                //applies a bonus for the movement if there are more than 1 player moving the bin                
                 this.transform.Translate(movement * Time.deltaTime);
             }
                 
