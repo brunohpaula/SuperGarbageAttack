@@ -64,6 +64,16 @@ public class PlayerTwoControls : MonoBehaviour
 
 
     public void OnAction()
+    {
+        if (playerStatus.GetAction())
+        {
+            playerStatus.SetAction(false);
+        }
+        else
+        {
+            playerStatus.SetAction(true);
+        }
+    }
 
 
     /// <summary>
